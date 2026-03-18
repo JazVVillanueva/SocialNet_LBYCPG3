@@ -8,9 +8,9 @@
 // can call createClient() directly without typing supabase.createClient().
 const { createClient } = supabase;
 
-const SUPABASE_URL = "https://mnwowwgzjsounxhcoonu.supabase.co";
+const SUPABASE_URL = "https://nplllthhcbxxsegtxhot.supabase.co";
 const SUPABASE_PUBLISHABLE_KEY =
-  "sb_publishable_IxXIJWmbOEIS7SeFCZaY7g_zu2T2OFR";
+  "sb_publishable_4mO5jPvGtHWLP6M3mpnlKA_X9qv1cRP";
 
 // db is our connection handle. Every Supabase call starts with db.from(...)
 const db = createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY);
