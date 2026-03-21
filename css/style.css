@@ -389,9 +389,7 @@ body {
   flex-shrink:   0;
 }
 
-/* Friends list box — same three-property pattern as .profile-list-box.
-   flex-shrink: 1 overrides the flex-shrink: 0 inherited from .sn-textbox
-   so this box can participate in flex growth. */
+
 .sn-textbox--tall {
   flex-shrink: 1;
   flex:        1;
